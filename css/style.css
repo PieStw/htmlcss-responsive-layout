@@ -183,7 +183,7 @@
   }
 
 
-  /* # RESPONSIVE */
+  /* # RESPONSIVE TABLET*/
 
   @media screen and (min-width: 576px) {
 
@@ -207,5 +207,17 @@
       padding-top: 0;   
     }
 
+    .list-recipe{
+      display: flex;
+      flex-wrap: wrap;
+      column-gap: 5px ;
+    }
+
+    .list-element{
+      display: inline-block;
+    }
+
   }
+
+  /* # RESPONSIVE PC*/
   
