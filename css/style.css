@@ -110,6 +110,10 @@
 
   /* # PRESENTATION */
 
+  .presentation-section{
+    padding-bottom: 30px;
+  }
+
   .jpg-tiramisù{
     width: 70%;
     aspect-ratio: 1.5;
@@ -133,4 +137,36 @@
   .description{
     line-height: 23px;
     font-size: 18px;
+  }
+
+  /* # FOOTER */
+
+  .footer{
+    background-color: #7C69A4;
+    width: 100%;
+    color: white;
+  }
+
+  .footer>.container{
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer .title{
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .info-list{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 20px;
+    text-decoration: underline;
   }
