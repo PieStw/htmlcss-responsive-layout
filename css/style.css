@@ -59,7 +59,7 @@
 
   .yt-tiramisù{
     width: 100%;
-    aspect-ratio: 1.9;
+    aspect-ratio: 1.6;
   }
 
   .sub-title{
@@ -71,6 +71,10 @@
     list-style: none;
     font-size: 18px;
     margin: 10px 20px;
+  }
+
+  .list-recipe{
+    padding-bottom: 10px;
   }
 
   .button-list{
@@ -108,6 +112,11 @@
     color: #E62222;
   }
 
+  .banner{
+    width: 100%;
+    display: none;
+  }
+
   /* # PRESENTATION */
 
   .presentation-section{
@@ -120,9 +129,8 @@
   }
 
   .img-container{
-    display: flex;
-    justify-content: center;
     padding: 20px 0;
+    text-align: center;
   }
 
   .presentation .title{
@@ -137,6 +145,8 @@
   .description{
     line-height: 23px;
     font-size: 18px;
+    padding-top: 20px;
+    text-align: start;
   }
 
   /* # FOOTER */
@@ -168,5 +178,34 @@
     gap: 20px;
     justify-content: center;
     padding-top: 20px;
+    padding-bottom: 20px;
     text-decoration: underline;
   }
+
+
+  /* # RESPONSIVE */
+
+  @media screen and (min-width: 576px) {
+
+    .header{
+      justify-content: left;
+     
+    }
+
+    .banner{
+      display: inline-block;
+      padding-bottom: 20px;
+    }
+
+    .jpg-tiramisù{
+      float: left;
+      width: 40%;
+      padding-right: 5px;
+    }
+
+    .description{
+      padding-top: 0;   
+    }
+
+  }
+  
