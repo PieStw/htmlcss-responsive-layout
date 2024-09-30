@@ -10,8 +10,7 @@
   
   .container {
     margin: 0 auto;
-    padding: 0 10px;
-    width: 1000px;
+    padding: 0 20px;
     max-width: 100%;
   }
 
@@ -24,8 +23,88 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
   }
 
-  .title{
+  .header .title{
     font-size: 40px;
+    text-shadow: 1px 1px gray;
   }
+
+  /* # RECIPE */
+
+  .main{
+    font-family: Montserrat, 'Helvetica Neue', sans-serif;
+    background-color: #F6F5F3;
+  }
+
+  .recipe .title-container, .recipe .upper-title, .recipe .title{
+    padding-top: 10px;
+  }
+
+  .recipe .upper-title{
+    color: grey;
+  }
+
+  .recipe .title{
+    color: #4E3969;
+  }
+
+  .card{
+    background-color: white;
+    margin: 20px 0;
+    border-radius: 5px;
+  }
+
+  .yt-tiramisù{
+    width: 100%;
+    aspect-ratio: 1.9;
+  }
+
+  .sub-title{
+    font-size: 20px;
+    margin: 20px 20px;
+  }
+
+  .list-element{
+    list-style: none;
+    font-size: 18px;
+    margin: 10px 20px;
+  }
+
+  .button-list{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding-bottom: 20px;
+  }
+
+  .button{
+    border-radius: 20px;
+    border: 1px solid white;
+    background-color: white;
+    width: 60px;
+    height: 40px;
+  }
+
+  .fa-facebook{
+    color: #1A77F3;
+  }
+
+  .fa-twitter{
+    color: #009EFF;
+  }
+
+  .fa-instagram{
+    color: #DE3D78;
+  }
+
+  .fa-pinterest{
+    color: #E62222;
+  }
+
+  .fa-youtube{
+    color: #E62222;
+  }
+
+  
