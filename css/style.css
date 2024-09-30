@@ -36,6 +36,7 @@
   .main{
     font-family: Montserrat, 'Helvetica Neue', sans-serif;
     background-color: #F6F5F3;
+    color: #333;
   }
 
   .recipe .title-container, .recipe .upper-title, .recipe .title{
@@ -107,4 +108,29 @@
     color: #E62222;
   }
 
-  
+  /* # PRESENTATION */
+
+  .jpg-tiramisù{
+    width: 70%;
+    aspect-ratio: 1.5;
+  }
+
+  .img-container{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+  }
+
+  .presentation .title{
+    padding-bottom: 20px;
+  }
+
+  hr{
+    border: 1px solid orange;
+    width: 100px;
+  }
+
+  .description{
+    line-height: 23px;
+    font-size: 18px;
+  }
