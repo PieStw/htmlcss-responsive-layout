@@ -14,3 +14,18 @@
     width: 1000px;
     max-width: 100%;
   }
+
+  /* # HEADER */
+
+  .header{
+    color: #FF9614;
+    font-family: 'Nerko One', cursive;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .title{
+    font-size: 40px;
+  }
